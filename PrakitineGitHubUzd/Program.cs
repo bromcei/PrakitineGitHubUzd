@@ -6,7 +6,7 @@ double kintamasis3 = 0;
 
 // 2 Variantas
 
-
+double r2 = 6371;
 
 // 3 Variantas
 
