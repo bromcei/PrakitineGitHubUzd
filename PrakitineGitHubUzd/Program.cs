@@ -8,6 +8,10 @@ double kintamasis3 = 0;
 
 double r2 = 6371;
 
+kintamasis2 = 4 / 3.0 * Math.PI * r2 * r2 * r2;
+
+Console.WriteLine($"Rutulio tūris: V = {kintamasis2}");
+
 // 3 Variantas
 
 // Rezultatas
