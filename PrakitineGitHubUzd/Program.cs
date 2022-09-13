@@ -15,11 +15,16 @@ Console.WriteLine($"Rutulio tūris: V = {kintamasis2}");
 
 // 3 Variantas
 
+double a = 10;
+double b = 15;
+kintamasis3 = Math.Sqrt(a * a + b * b);
+
+
 // Rezultatas
 Console.WriteLine("*********************************");
 Console.WriteLine("* Viso kintamųjų: 3");
-Console.WriteLine($"* Kintamasis1; {kintamasis1}");
-Console.WriteLine($"* Kintamasis2; {kintamasis2}");
-Console.WriteLine($"* Kintamasis3; {kintamasis3}");
+Console.WriteLine($"* Kintamasis1: {kintamasis1}");
+Console.WriteLine($"* Kintamasis2: {kintamasis2}");
+Console.WriteLine($"* Kintamasis3: {kintamasis3}");
 Console.WriteLine($"* Suma: {kintamasis1 + kintamasis2 + kintamasis3}");
 Console.WriteLine($"* Visurkis: {(kintamasis1 + kintamasis2 + kintamasis3) / 3}");
